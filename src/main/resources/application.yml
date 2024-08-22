@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: gyomuflow-app
+  datasource:
+    url: jdbc:mysql://localhost:3306/gyomuflow?useSSL=false
+    username: root
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
